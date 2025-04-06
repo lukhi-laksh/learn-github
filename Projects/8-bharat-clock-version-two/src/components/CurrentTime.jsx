@@ -16,7 +16,7 @@ let CurrentTime = () => {
 
   return (
     <p className="lead">
-      Live time {time.toLocaleDateString()} -{" "}
+      This is the current time: {time.toLocaleDateString()} -{" "}
       {time.toLocaleTimeString()}
     </p>
   );
